@@ -2,37 +2,64 @@
 
 A practical framework for building demand as a connected system, rather than a collection of campaigns.
 
-This is based on systems I've built and operated in a technical B2B environment with long sales cycles, multiple audiences, international markets, multiple languages, and interconnected marketing and sales technology.
+This is based on systems I've built and operated in technical B2B environments with long sales cycles, multiple audiences, international markets, multiple languages, and interconnected marketing and sales technology.
 
-The company-specific data and logic stay private. The useful ideas, processes, and reusable parts don't have to.
+While any company-specific data, tools, logic must stay private, the useful frameworks, processes, and reusable parts can be shared.
 
 ## The basic idea
 
-Demand generation doesn't start with an ad and it doesn't end with a lead.
-
-It is a connected system:
+Demand generation works best when the pieces connect.
 
 **Audience & market intelligence → Discovery → Owned media → Conversion → Lead management → Lifecycle → Sales → Revenue**
 
-Underneath that sits the infrastructure that makes it work:
+Supporting that journey is a layer of infrastructure:
 
 **Data · CRM · Automation · Measurement · Processes · Technology**
 
-And the results feed back into the beginning of the system so it can keep improving.
+The system produces demand, but it also produces information. Search behavior, content performance, lead data, sales feedback, and customer outcomes should keep changing how the next round of work is planned.
 
 ## The system
 
 ### 01. Audience & demand intelligence
 
-Understand who you're trying to reach, what makes them relevant, what problems they have, what they're searching for, and what the organization actually wants to prioritize.
+Before creating content or campaigns, build a useful picture of the people you're trying to reach.
 
-Customer interviews, sales knowledge, CRM data, search behavior, market research, subject-matter experts, and behavioral signals should all feed this process.
+That means bringing together:
 
-### 02. Discovery & distribution
+- Customer conversations
+- Sales knowledge
+- CRM and enrichment data
+- Search behavior
+- Subject-matter expertise
+- Business priorities
+- Behavioral signals
 
-Make useful information discoverable wherever the audience is already looking.
+The audience model should be able to change as better information comes in.
 
-This can include:
+→ **[Audience & Demand Intelligence](https://github.com/cole-mcquirk/marketing-systems/blob/main/demand-generation/01-audience-demand-intelligence.md)**
+
+### 02. Seach & content planning
+Search research helps show what people are actively trying to understand, the language they use, and where useful information may be missing.
+
+Content planning then brings that together with:
+
+- Audience relevance
+- Business priorities
+- Existing visibility
+- Internal expertise
+- Available resources
+- Technical validation
+- Opportunities to reuse the work elsewhere
+
+Search volume gives context. The final decision depends on what the topic could actually contribute to the wider system.
+
+→ **[Search & Content Planning](https://github.com/cole-mcquirk/marketing-systems/blob/main/demand-generation/02-search-content-planning.md)**
+
+### 03. Discovery & distribution
+
+The next job is getting useful information in front of the right audiences.
+
+Depending on the organization, that can include:
 
 - Organic search
 - Paid search
@@ -40,47 +67,130 @@ This can include:
 - PR and trade media
 - Events
 - Partnerships
+- Video
 - AI and LLM discovery
 
-### 03. Owned media & content
+Different channels have different jobs.
 
-Turn attention toward assets the organization actually controls.
+Some capture existing demand. Some create awareness. Some help educate an audience over time. Some are better suited to highly specific audiences that would never generate meaningful search volume.
 
-Website pages, articles, resources, research, video, email databases, tools, training material, and other useful content compound over time and can support multiple channels and stages of the journey.
+The aim is to connect those channels back into an ecosystem the organization can actually learn from and build on.
 
-### 04. Conversion & lead capture
+## 04. Owned media & content
 
-Create useful paths for people to take the next step.
+Websites, articles, product pages, resources, research, video, email databases, training material, tools, and other owned assets can keep producing value long after they are first created.
 
-Forms, resources, product inquiries, subscriptions, event capture, interactive experiences, directories, tools, and other conversion points should connect directly into the wider system.
+Strong assets can also support several parts of the system at once.
 
-### 05. Lead management & CRM
+One useful resource might eventually feed:
 
-A form fill isn't a strategy.
+**Search → Paid → Social → Email → PR → Events → Sales → Customer education**
 
-Captured demand needs to be structured, enriched, segmented, qualified, routed, and synchronized across the systems used by Marketing and Sales.
+Planning for that reuse early usually makes the original asset stronger.
 
-### 06. Lifecycle & nurture
+### 05. Conversion & lead capture
 
-Not everyone is ready to act immediately.
+Once someone shows interest, there needs to be a useful next step.
 
-Automation, email, content, behavioral signals, and repeat engagement help move people through the journey while keeping communication relevant to who they are and what they've done.
+That can happen through:
 
-### 07. Sales alignment
+- Forms
+- Resource downloads
+- Product or service inquiries
+- Email subscriptions
+- Event lead capture
+- QR codes
+- Interactive experiences
+- Quizzes
+- Directories
+- Tools
+- Custom website modules
 
-Marketing activity should connect to the commercial process.
+The conversion point should connect cleanly to what happens afterward.
 
-That means clear qualification, handoff, CRM synchronization, feedback loops, opportunity tracking, and visibility into what happens after a lead leaves Marketing.
+### 06. Lead management & CRM
 
-### 08. Measurement & attribution
+Lead generation creates the input. Lead management determines what happens to it.
 
-Traffic and engagement are useful signals, but they aren't the final objective.
+A useful system needs to handle things like:
 
-The goal is to connect activity as far through the system as the available data allows:
+- Data capture
+- Enrichment
+- Segmentation
+- Qualification
+- Lifecycle stages
+- Lists
+- Routing
+- CRM synchronization
+- Sales notifications
+- Nurture eligibility
+- Data quality
+
+This becomes especially important when Marketing and Sales operate across different systems.
+
+The objective is to make sure useful context survives the journey from first interaction through commercial follow-up.
+
+### 07. Lifecycle & nurture
+
+Most people will not be ready for a conversation with Sales the first time they interact with the organization.
+
+Lifecycle systems can use:
+
+- Email
+- Automation
+- Content
+- Behavioral signals
+- Audience attributes
+- Product or topic interest
+- Repeat engagement
+
+to keep communication relevant as the relationship develops.
+
+Different audiences may need very different journeys, even when they entered through the same original piece of content.
+
+### 08. Sales alignment
+
+arketing activity eventually needs to connect with the people responsible for the next stage of the relationship.
+
+That requires clarity around:
+
+- Qualification
+- Handoff
+- Ownership
+- Routing
+- CRM synchronization
+- Follow-up
+- Feedback
+- Opportunity tracking
+- Customer outcomes
+
+Sales feedback should also feed back into Marketing.
+
+If a qualification rule consistently sends the wrong people to Sales, the rule needs to change.
+
+If certain types of leads repeatedly become strong customers, that should influence future segmentation, content, and acquisition.
+
+### 09. Measurement & attribution
+
+Measurement should follow the journey as far as the available data allows.
+
+A useful progression might look like:
 
 **Visibility → Engagement → Contacts → Qualified leads → Opportunities → Customers → Revenue**
 
-### 09. Optimization & operations
+Each stage answers a different question.
+
+Traffic can show whether visibility is growing.
+
+Contacts can show whether people are engaging deeply enough to identify themselves.
+
+Qualified leads help show whether the right audiences are entering the system.
+
+Pipeline and customer data show whether that activity is creating organizational value.
+
+Attribution will rarely be perfect, especially in long B2B journeys. The goal is to build enough connection between systems to make better decisions than channel-level metrics alone can provide.
+
+### 10. Optimization & operations
 
 The system should get better as it runs.
 
@@ -92,11 +202,28 @@ Sometimes the system you need doesn't exist yet.
 
 This is where marketing starts overlapping with technology: custom CMS modules, CRM workflows, integrations, interactive tools, data processes, event capture systems, directories, automation, and other things built to solve specific problems.
 
-## What I'm documenting here
+## What's here now
 
-I'll gradually turn each part of this system into practical frameworks, templates, examples, and reusable tools.
+- **[01. Audience & Demand Intelligence](https://github.com/cole-mcquirk/marketing-systems/blob/main/demand-generation/01-audience-demand-intelligence.md)**
+- **[02. Search & Content Planning](https://github.com/cole-mcquirk/marketing-systems/blob/main/demand-generation/02-search-content-planning.md)**
 
-Some will be strategic. Some will be technical. Some will probably be experiments.
+## Coming next
+
+The rest will be built out gradually, including:
+
+- Discovery and channel strategy
+- Paid media
+- SEO architecture
+- Content systems
+- Conversion
+- Lead management
+- Lifecycle automation
+- CRM architecture
+- Measurement and attribution
+- Marketing operations
+- HubSpot modules and other technical builds
+
+This is a work in progress. The aim is to document systems that have been useful in practice and turn the reusable parts into something other people can work with.
 
 Most of my experience comes from commercial marketing, but I'm also interested in how the same kinds of systems and tools can be adapted for nonprofits, NGOs, advocacy groups, grassroots organizations, and other teams working with limited resources.
 
